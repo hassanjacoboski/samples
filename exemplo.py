@@ -4,6 +4,8 @@ import sys, os
 from datetime import datetime
 from time import sleep
 
+import pandas as pd
+
 WORKING_DIR = os.path.dirname(os.path.abspath(__file__))
 
 MY_FILE = os.path.join(WORKING_DIR, 'my_file.txt')

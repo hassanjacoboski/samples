@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
 
-import sys, os
+import sys
+import os
 from datetime import datetime
 from time import sleep
 
 WORKING_DIR = os.path.dirname(os.path.abspath(__file__))
 
 MY_FILE = os.path.join(WORKING_DIR, 'my_file.txt')
+
 
 def now_str():
     return datetime.now().strftime('%Y-%m-%d %H:%M:%S')
